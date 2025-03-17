@@ -1,4 +1,4 @@
-package path.to.navigation 
+package com.rwolnik.portfoliopage.navigation
 
 sealed class Screen(val route: String) {
     object Home : Screen("home")
