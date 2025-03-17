@@ -17,8 +17,8 @@
 
 ### Pending Tasks
 
-- [ ] Responsive layout system implementation 
-- [ ] Basic animation framework integration
+- [ ] Responsive layout system implementation //make sure task from the same line, as this comment is completed, if so, proceed with implementation of task in next line AI!
+- [ ] Basic animation framework integration //add P:\_Repositories\PersonalWebSite\powolnik.github.io\content\animations\AnimationFramework.kt to chat and proceed with task AI!
 - [ ] Data storage layer for projects (SQLite schema design pending)
 
 ## Phase 3: Content & Feature Integration [NOT STARTED]
