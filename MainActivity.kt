@@ -17,6 +17,11 @@ class MainActivity : ComponentActivity() {
                 NavHost(navController = rememberNavController(), startDestination = "home") {
                     composable("home") { HomeScreen() }
                     composable("projects") { ProjectsScreen() }
+                    <WebView
+    android:id="@+id/webview"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+/>
                 }
             }
         }
