@@ -1,0 +1,10 @@
+@app.route('/contact', methods=['GET', 'POST'])
+def contact():
+    if request.method == 'POST':
+        msg = Message('Portfolio Inquiry', 
+                     sender='you@example.com',
+                     recipients=['your-email@example.com'])
+        msg.body = request.form['message']
+        mail.send(msg)
+        return redirect(url_for('home'))
+    return render_template('contact.html')
