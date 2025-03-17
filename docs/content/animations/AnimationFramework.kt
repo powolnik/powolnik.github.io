@@ -1,4 +1,3 @@
-// entire file content ...
 package com.powolnik.portfolio.animations
 
 import androidx.compose.animation.core.*
