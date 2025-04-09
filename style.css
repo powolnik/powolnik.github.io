@@ -1,0 +1,85 @@
+/* Podstawowe style i resetowanie */
+body {
+    font-family: Arial, sans-serif; /* Możesz zmienić na inną czcionkę */
+    line-height: 1.6;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4; /* Jasne tło strony */
+    color: #333; /* Podstawowy kolor tekstu */
+}
+
+/* Kontener centrujący zawartość */
+header, main, footer {
+    max-width: 800px; /* Maksymalna szerokość zawartości */
+    margin: 0 auto; /* Centrowanie */
+    padding: 20px;
+}
+
+/* Stylizacja nagłówka */
+header {
+    background-color: #333; /* Ciemne tło nagłówka */
+    color: #fff; /* Jasny tekst w nagłówku */
+    text-align: center;
+    padding: 30px 20px;
+    margin-bottom: 20px; /* Odstęp pod nagłówkiem */
+}
+
+header h1 {
+    margin: 0;
+    font-size: 2.5em; /* Większy tytuł */
+}
+
+header p {
+    font-size: 1.2em; /* Nieco większy podtytuł */
+}
+
+/* Stylizacja sekcji w main */
+main section {
+    background-color: #fff; /* Białe tło dla sekcji */
+    margin-bottom: 20px; /* Odstęp między sekcjami */
+    padding: 25px;
+    border-radius: 5px; /* Lekko zaokrąglone rogi */
+    box-shadow: 0 2px 4px rgba(0,0,0,0.1); /* Delikatny cień */
+}
+
+main h2 {
+    color: #333;
+    border-bottom: 2px solid #eee; /* Linia pod tytułami sekcji */
+    padding-bottom: 10px;
+    margin-top: 0;
+}
+
+/* Stylizacja list (projekty, kontakt) */
+ul {
+    list-style: none; /* Usunięcie domyślnych punktorów */
+    padding: 0;
+}
+
+ul li {
+    margin-bottom: 10px; /* Odstęp między elementami listy */
+}
+
+/* Stylizacja linków */
+a {
+    color: #007bff; /* Niebieski kolor linków */
+    text-decoration: none; /* Usunięcie podkreślenia */
+}
+
+a:hover {
+    text-decoration: underline; /* Podkreślenie przy najechaniu */
+    color: #0056b3; /* Ciemniejszy niebieski przy najechaniu */
+}
+
+/* Stylizacja stopki */
+footer {
+    text-align: center;
+    margin-top: 30px;
+    padding-top: 20px;
+    border-top: 1px solid #ccc; /* Linia nad stopką */
+    font-size: 0.9em;
+    color: #666; /* Szary tekst w stopce */
+}
+
+footer p {
+    margin: 5px 0;
+}
